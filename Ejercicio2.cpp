@@ -1,0 +1,16 @@
+// Algoritmo para leer números hasta introducir uno negativo
+#include <iostream>
+using namespace std;
+
+int main(){
+    int num;
+    // Bucle que se repite mientras el número sea positivo o cero
+    do {
+        cout << "Introduce el numero" << endl;
+        cin >> num;
+    } while (num >= 0);
+
+    // Mensaje de fin
+    cout << "Fin de la captura" << endl;
+    return 0;
+}
