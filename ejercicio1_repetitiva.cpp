@@ -2,9 +2,12 @@
 using namespace std;
 
 int main (){
+	//Declaracion de variables
 	int n, multiplo;
+	//Entrada
 	cout<<"Ingrese la cantidad de multiplos de 7 a imprimir"<<endl;
 	cin>>n;
+	//Proceso y Salida
 	if (n<0){
 		cout<<"ERROR, numero introducido menor a 0"<<endl;
 	} else {
