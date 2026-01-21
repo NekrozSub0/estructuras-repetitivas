@@ -4,7 +4,7 @@ using namespace std;
 int main (){
 	int N,SUM;
 	//Entrada
-	cout<<Ingrese la cantidad de numeros naturales a sumar: <<endl;
+	cout<<"Ingrese la cantidad de numeros naturales a sumar: "<<endl;
 	cin>>N;
 	//Proceso
 	SUM = 0;
@@ -12,5 +12,5 @@ int main (){
 		SUM = SUM + i;
 	}
 	//Salida
-	cout<<La suma de los <<N<< primeros numeros naturales es :<<SUM<<endl;
+	cout<<"La suma de los "<<N<<" primeros numeros naturales es :"<<SUM<<endl;
 	}
